@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: aqua;
+}
+.logo{
+    font-family: cursive;
+}
+.menu>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu>ul>li{
+    padding-left: 1rem;
+    list-style-type: none;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+}
+.section1{
+    height: 70vh;
+}
+section>button{
+    height: 2rem;
+    width: 10rem;
+    margin-left: 40rem;
+    cursor: pointer;
+}
+.imgdiv{
+    margin-top: 4rem;
+    background-image: url('https://th.bing.com/th/id/OIP.iM2oodrerp1Ft9NIifgrcQHaHa?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    height: 20rem;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.carddiv{
+    margin: 1rem 10rem 4rem 10rem;
+}
+.section3{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec3img{
+    width: 40%;
+    height: 40vh;
+    margin: 1rem 10rem 4rem 10rem;
+    background-image: url("https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-smart-blue-personalized-stainless-steel-water-bottle-350-ml--192614-m.jpg");
+}
+.sec3paragraph{
+    margin-right: 10rem;
+}
+.section4{
+    flex-direction: row-reverse;
+}
+.sec4paragraph{
+ margin-left: 10rem;
+}
+.sec4btn{
+    margin-top: 1rem;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+}
